@@ -77,16 +77,16 @@ msgid "By"
 msgstr ""
 
 #. Theme Name of the plugin/theme
-msgid "Sage Starter Theme"
+msgid "Worth Starter Theme"
 msgstr ""
 
 #. Theme URI of the plugin/theme
-msgid "https://roots.io/sage/"
+msgid "https://roots.io/worth/"
 msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Sage is a WordPress starter theme. <a href=\"https://github.com/roots/sage"
+"Worth is a WordPress starter theme. <a href=\"https://github.com/roots/worth"
 "\">Contribute on GitHub</a>"
 msgstr ""
 

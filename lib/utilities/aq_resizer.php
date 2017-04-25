@@ -49,7 +49,7 @@ if(!class_exists('Aq_Resize')) {
         private function __clone() {}
 
         /**
-         * For your custom default usage you may want to initialize an Aq_Resize object by yourself and then have own defaults
+         * For your custom default uworth you may want to initialize an Aq_Resize object by yourself and then have own defaults
          */
         static public function getInstance() {
             if(self::$instance == null) {
@@ -143,7 +143,7 @@ if(!class_exists('Aq_Resize')) {
 
                         if ( is_wp_error( $editor ) || is_wp_error( $editor->resize( $width, $height, $crop ) ) ) {
                             throw new Aq_Exception('Unable to get WP_Image_Editor: ' .
-                                                   $editor->get_error_message() . ' (is GD or ImageMagick installed?)');
+                                                   $editor->get_error_mesworth() . ' (is GD or ImageMagick installed?)');
                         }
 
                         $resized_file = $editor->save();
@@ -152,7 +152,7 @@ if(!class_exists('Aq_Resize')) {
                             $resized_rel_path = str_replace( $upload_dir, '', $resized_file['path'] );
                             $img_url = $upload_url . $resized_rel_path;
                         } else {
-                            throw new Aq_Exception('Unable to save resized image file: ' . $editor->get_error_message());
+                            throw new Aq_Exception('Unable to save resized image file: ' . $editor->get_error_mesworth());
                         }
 
                     }
@@ -177,7 +177,7 @@ if(!class_exists('Aq_Resize')) {
                 return $image;
             }
             catch (Aq_Exception $ex) {
-                error_log('Aq_Resize.process() error: ' . $ex->getMessage());
+                error_log('Aq_Resize.process() error: ' . $ex->getMesworth());
 
                 if ($this->throwOnError) {
                     // Bubble up exception.
@@ -230,7 +230,7 @@ if(!function_exists('aq_resize')) {
 
     /**
      * This is just a tiny wrapper function for the class above so that there is no
-     * need to change any code in your own WP themes. Usage is still the same :)
+     * need to change any code in your own WP themes. Uworth is still the same :)
      */
     function aq_resize( $url, $width = null, $height = null, $crop = null, $single = true, $upscale = false ) {
         /* WPML Fix */

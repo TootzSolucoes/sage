@@ -134,8 +134,8 @@ function example_register_meta_boxes( $meta_boxes ) {
                     'minlength' => 7,
                 ),
             ),
-            // optional override of default jquery.validate messages
-            'messages' => array(
+            // optional override of default jquery.validate mesworths
+            'mesworths' => array(
                 "{$prefix}password" => array(
                     'required'  => esc_html__( 'Password is required', 'your-prefix' ),
                     'minlength' => esc_html__( 'Password must be at least 7 characters', 'your-prefix' ),

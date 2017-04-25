@@ -1,14 +1,14 @@
 <?php
 
-namespace Roots\Sage\Customizer;
+namespace Roots\Worth\Customizer;
 
-use Roots\Sage\Assets;
+use Roots\Worth\Assets;
 
 /**
- * Add postMessage support
+ * Add postMesworth support
  */
 function customize_register($wp_customize) {
-  $wp_customize->get_setting('blogname')->transport = 'postMessage';
+  $wp_customize->get_setting('blogname')->transport = 'postMesworth';
 }
 add_action('customize_register', __NAMESPACE__ . '\\customize_register');
 
@@ -16,6 +16,6 @@ add_action('customize_register', __NAMESPACE__ . '\\customize_register');
  * Customizer JS
  */
 function customize_preview_js() {
-  wp_enqueue_script('sage/customizer', Assets\asset_path('scripts/customizer.js'), ['customize-preview'], null, true);
+  wp_enqueue_script('worth/customizer', Assets\asset_path('scripts/customizer.js'), ['customize-preview'], null, true);
 }
 add_action('customize_preview_init', __NAMESPACE__ . '\\customize_preview_js');

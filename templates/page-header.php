@@ -1,4 +1,4 @@
-<?php use Roots\Sage\Titles; ?>
+<?php use Roots\Worth\Titles; ?>
 
 <div class="page-header">
   <h1><?= Titles\title(); ?></h1>

@@ -1,5 +1,5 @@
-<?php use Roots\Sage\Setup; ?>
-<?php use Roots\Sage\Wrapper; ?>
+<?php use Roots\Worth\Setup; ?>
+<?php use Roots\Worth\Wrapper; ?>
 
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -10,7 +10,7 @@
 
     <!--[if IE]>
       <div class="alert alert-warning">
-        <?php _e('You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'sage'); ?>
+        <?php _e('You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.', 'worth'); ?>
       </div>
     <![endif]-->
 

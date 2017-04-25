@@ -1,15 +1,15 @@
 {
-  "name": "sage",
+  "name": "worth",
   "version": "8.5.1",
   "author": "Ben Word <ben@benword.com>",
-  "homepage": "https://roots.io/sage/",
+  "homepage": "https://roots.io/worth/",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/roots/sage.git"
+    "url": "git://github.com/roots/worth.git"
   },
   "bugs": {
-    "url": "https://github.com/roots/sage/issues"
+    "url": "https://github.com/roots/worth/issues"
   },
   "licenses": [{
     "type": "MIT",
