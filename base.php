@@ -24,5 +24,6 @@
     <?php do_action('get_footer') ?>
     <?php get_template_part('templates/footer') ?>
     <?php wp_footer() ?>
+
   </body>
 </html>
