@@ -11,12 +11,10 @@
   "bugs": {
     "url": "https://github.com/roots/sage/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://opensource.org/licenses/MIT"
-    }
-  ],
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://opensource.org/licenses/MIT"
+  }],
   "scripts": {
     "build": "bower install && gulp",
     "jshint": "gulp jshint",
@@ -38,7 +36,6 @@
     "gulp-if": "^2.0.1",
     "gulp-imagemin": "^3.0.3",
     "gulp-jshint": "^2.0.1",
-    "gulp-less": "^3.0.3",
     "gulp-plumber": "^1.0.1",
     "gulp-rename": "^1.2.2",
     "gulp-rev": "^7.1.2",
