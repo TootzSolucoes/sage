@@ -1,15 +1,8 @@
-# [Sage](https://roots.io/sage/)
-[![Build Status](https://travis-ci.org/roots/sage.svg)](https://travis-ci.org/roots/sage)
-[![devDependency Status](https://david-dm.org/roots/sage/dev-status.svg)](https://david-dm.org/roots/sage#info=devDependencies)
+# [Worth](https://github.com/TootzSolucoes/worth/)
 
-Sage is a WordPress starter theme based on HTML5 Boilerplate, gulp, Bower, and Bootstrap Sass, that will help you make better themes.
+A [Sage 8](https://github.com/roots/sage) fork.
 
-* Source: [https://github.com/roots/sage](https://github.com/roots/sage)
-* Homepage: [https://roots.io/sage/](https://roots.io/sage/)
-* Documentation: [https://roots.io/sage/docs/](https://roots.io/sage/docs/)
-* Twitter: [@rootswp](https://twitter.com/rootswp)
-* Newsletter: [Subscribe](http://roots.io/subscribe/)
-* Forum: [https://discourse.roots.io/](https://discourse.roots.io/)
+Worth is a WordPress starter theme based on HTML5 Boilerplate, gulp, Bower, and Bootstrap Sass, that will help you make better themes.
 
 ## Requirements
 
@@ -96,20 +89,6 @@ If your local development URL looks like `http://localhost:8888/project-name/` y
 ...
 ```
 
-## Documentation
+## Thanks
 
-Sage documentation is available at [https://roots.io/sage/docs/](https://roots.io/sage/docs/).
-
-## Contributing
-
-Contributions are welcome from everyone. We have [contributing guidelines](https://github.com/roots/guidelines/blob/master/CONTRIBUTING.md) to help you get started.
-
-## Community
-
-Keep track of development and community news.
-
-* Participate on the [Roots Discourse](https://discourse.roots.io/)
-* Follow [@rootswp on Twitter](https://twitter.com/rootswp)
-* Read and subscribe to the [Roots Blog](https://roots.io/blog/)
-* Subscribe to the [Roots Newsletter](https://roots.io/subscribe/)
-* Listen to the [Roots Radio podcast](https://roots.io/podcast/)
+Thanks for the great work [Sage](https://github.com/roots/sage).
