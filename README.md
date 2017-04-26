@@ -1,6 +1,6 @@
 # [Worth](https://github.com/TootzSolucoes/worth/)
 
-A [Worth 8](https://github.com/roots/worth) fork.
+A [Sage 8](https://github.com/roots/sage) fork.
 
 Worth is a WordPress starter theme based on HTML5 Boilerplate, gulp, Bower, and Bootstrap Sass, that will help you make better themes.
 
@@ -22,10 +22,10 @@ For more installation notes, refer to the [Install gulp and Bower](#install-gulp
 * [Bower](http://bower.io/) for front-end package management
 * [asset-builder](https://github.com/austinpray/asset-builder) for the JSON file based asset pipeline
 * [Bootstrap](http://getbootstrap.com/)
-* [Theme wrapper](https://roots.io/worth/docs/theme-wrapper/)
+* [Theme wrapper](https://roots.io/sage/docs/theme-wrapper/)
 * ARIA roles and microformats
 * Posts use the [hNews](http://microformats.org/wiki/hnews) microformat
-* [Multilingual ready](https://roots.io/wpml/) and over 30 available [community translations](https://github.com/roots/worth-translations)
+* [Multilingual ready](https://roots.io/wpml/) and over 30 available [community translations](https://github.com/roots/sage-translations)
 
 See a complete working example in the [roots-example-project.com repo](https://github.com/roots/roots-example-project.com).
 
@@ -82,4 +82,4 @@ If your local development URL looks like `http://localhost:8888/project-name/` y
 
 ## Thanks
 
-Thanks for the great work [Worth](https://github.com/roots/worth).
+Thanks for the great work [Sage](https://github.com/roots/sage).
