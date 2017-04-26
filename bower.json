@@ -1,12 +1,14 @@
 {
   "name": "worth",
-  "homepage": "https://roots.io/worth/",
+  "homepage": "https://github.com/TootzSolucoes/worth",
   "authors": [
-    "Ben Word <ben@benword.com>"
+    "Wendell P. Barreto <wendell@tootz.com.br>"
   ],
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "bootstrap": "git://github.com/twbs/bootstrap.git#v4.0.0-alpha.6"
+    "jquery": "^3.2.1",
+    "bootstrap": "git://github.com/twbs/bootstrap.git#v4.0.0-alpha.6",
+    "sweetalert2": "^6.6.1"
   }
 }
