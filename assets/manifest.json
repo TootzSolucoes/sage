@@ -1,19 +1,17 @@
 {
   "dependencies": {
     "main.js": {
-      "files": [
-        "scripts/main.js"
-      ],
+      "files": ["scripts/main.js"],
       "main": true
+    },
+    "map.js": {
+      "files": ["scripts/map.js"]
     },
     "main.css": {
       "files": [
         "styles/main.scss"
       ],
       "main": true
-    },
-    "jquery.js": {
-      "bower": ["jquery"]
     }
   },
   "config": {

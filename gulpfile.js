@@ -106,9 +106,9 @@ var cssTasks = function (filename) {
         'opera 12'
       ]
     })
-    .pipe(cssNano, {
-      safe: true
-    })
+    //.pipe(cssNano, {
+    //  safe: true
+    //})
     .pipe(function () {
       return gulpif(enabled.rev, rev());
     })
@@ -197,17 +197,28 @@ gulp.task('styles', ['wiredep'], function () {
 // and project JS.
 gulp.task('scripts', ['jshint'], function () {
   var merged = merge();
-  manifest.forEachDependency('js', function (dep) {
-    merged.add(
-      gulp.src(dep.globs, {
-        base: 'scripts'
-      })
-      .pipe(plumber({
-        errorHandler: onError
-      }))
-      .pipe(jsTasks(dep.name))
-    );
-  });
+  //manifest.forEachDependency('js', function (dep) {
+  //  merged.add(
+  //    gulp.src(dep.globs, {
+  //      base: 'scripts'
+  //    })
+  //    .pipe(plumber({
+  //      errorHandler: onError
+  //    }))
+  //    .pipe(jsTasks(dep.name))
+  //  );
+  //});
+
+  merged.add(
+    gulp.src(path.source + 'scripts/*.js')
+    .pipe(concat('all.js'))
+    .pipe(gulp.dest('assets/scripts/'))
+    .pipe(plumber({
+      errorHandler: onError
+    }))
+    .pipe(jsTasks('all.js'))
+  );
+
   return merged
     .pipe(writeToManifest('scripts'));
 });
